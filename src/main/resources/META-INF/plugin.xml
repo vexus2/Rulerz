@@ -1,0 +1,39 @@
+<idea-plugin>
+  <id>jp.storm.rulerz.rulerz</id>
+  <name>Rulerz</name>
+  <version>0.1.1</version>
+  <vendor email="hikaru.tooyama@gmail.com" url="https://github.com/vexus2">Vexus2</vendor>
+
+  <depends>com.intellij.modules.lang</depends>
+
+    <description><![CDATA[
+            <html><body>
+            This is plugin that displays a vertical line at the cursor position.
+           </body></html>
+  ]]></description>
+
+  <change-notes><![CDATA[
+        <html><body>
+        <p>version 0.1.1</p>
+        <ul>
+            <li>Fix bug.</li>
+        </ul>
+        <p>version 0.1</p>
+        <ul>
+            <li>initial release.</li>
+        </ul>
+       </body></html>
+]]> </change-notes>
+
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+
+  <actions>
+  </actions>
+  <application-components>
+     <component>
+       <implementation-class>RulerzApplicationComponent</implementation-class>
+     </component>
+   </application-components>
+</idea-plugin>
